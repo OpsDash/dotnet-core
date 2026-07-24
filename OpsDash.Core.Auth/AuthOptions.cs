@@ -10,6 +10,8 @@ public enum AuthMode
     ForwardedIdentity = 1
 }
 
+// Test for pipeline
+
 public sealed class AuthOptions
 {
     public const string Section = "WebApi:Auth";
