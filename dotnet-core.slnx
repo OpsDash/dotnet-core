@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OpsDash.Core.Aspire\OpsDash.Core.Aspire.csproj" />
+  <Project Path="OpsDash.Core.Auth\OpsDash.Core.Auth.csproj" />
+  <Project Path="OpsDash.Core.OpenApi\OpsDash.Core.OpenApi.csproj" />
+  <Project Path="OpsDash.Core.WebApi\OpsDash.Core.WebApi.csproj" />
+</Solution>

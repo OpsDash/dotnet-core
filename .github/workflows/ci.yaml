@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  pipeline:
+    uses: OpsDash/pipelines/.github/workflows/orchestrate-dotnet.yaml@main
