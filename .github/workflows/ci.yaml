@@ -12,4 +12,4 @@ permissions:
 
 jobs:
   pipeline:
-    uses: opsdash/pipelines/.github/workflows/dotnet-orchestrate.yaml
+    uses: opsdash/pipelines/.github/workflows/dotnet-orchestrate.yaml@main
